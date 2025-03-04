@@ -25,6 +25,18 @@
                 button.innerHTML = "Selected"
                 button.style.borderColor = "green";
         }
+        function changeContent2() {
+            let button = document.getElementById("btn2");
+
+                button.innerHTML = "Selected"
+                button.style.borderColor = "green";
+        }
+        function changeContent3() {
+            let button = document.getElementById("btn3");
+
+                button.innerHTML = "Selected"
+                button.style.borderColor = "green";
+        }
     </script>
 </head>
 <body>
@@ -62,7 +74,7 @@
                     </div>
                 </div>
                 <h2 style="padding:50px 0px 30px 20px;">Flex theme</h2>
-                <button class="btn">Apply</button>
+                <button class="btn" id="btn2" onclick="changeContent2()">Apply</button>
             </div>
             
 
@@ -82,7 +94,7 @@
                     </div>
                 </div>
                 <h2 style="padding:50px 0px 30px 20px;">Chic theme</h2>
-                <button class="btn" >Apply</button>
+                <button class="btn" id="btn3" onclick="changeContent3()" >Apply</button>
             </div>
         </div>
 
