@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .arrow {
+            width: 4px;
+            height: 4px;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid black;
+            margin-left: 60px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div style="height:auto;width: auto;background-color: bisque; display: flex;">
+        <div style="height: 600px;width: 400px;margin-left: 50px;margin-top: 50px;">
+            <h2>Lets add a type,Category and Sub-category</h2>
+            <div style="padding-bottom: 30px;">
+                add a Product Type <br>
+                <input type="text" placeholder="eg - Books" style="padding: 3px;width: 300px;"> <br>
+            </div>
+            <div style="padding-bottom: 30px;">
+                add a Category(Opitional) <br>
+                <input type="text" placeholder="eg - Academic book" style="padding: 3px;width: 300px;"> <br>
+            </div>
+            <div style="padding-bottom: 30px;">
+                add a Sub-category(Opitional) <br>
+                <input type="text" placeholder="eg - Medical book" style="padding: 3px;width: 300px;"> <br>
+            </div>
+            <div style="margin-left: 80px; ">
+                <a href="Theme.html">
+                    <button style="background-color: gray;padding: 10px;width: 100px;">< Back</button></a>
+                <a href="DetailsPage.html">
+                    <button style="background-color: blue;color: white;margin-left: 20px;padding:10px;width:100px;">Next</button></a>
+            </div>
+        </div>
+<!-- // Flow Chart -->
+        <div style="height: 600px;width: 400px;background-color: lightgreen;margin-left: 200px;">
+            <div style="margin-left: 120px;">
+                <div style="height:50px;width: 100px;background-color:blue;color: white;margin-top: 30px;margin-left: 20px; align-content: center;text-align: center;">Product type</div>
+                <div class="arrow"></div>
+                <div style="height:50px;width: 100px;background-color:yellow;color:black;margin-top: 30px;margin-left: 20px;align-content: center;text-align: center;">Category</div>
+                <div class="arrow"></div>
+                <div style="height:50px;width: 100px;background-color:yellow;color: black;margin-top: 30px;margin-left: 20px;align-content: center;text-align: center;">Sub-Category</div>
+                <div class="arrow"></div>
+                <div style="height:50px;width: 100px;background-color:lightgray;color: black;margin-top: 30px;margin-left: 20px;align-content: center;text-align: center;">Product</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
